@@ -2,7 +2,6 @@ require('dotenv').config()
 const express = require("express")
 const app = express()
 const cors = require('cors')
-)
 const port=process.env.PORT
 const characters=require("./harrypotter.json")
 app.use(express.json())
